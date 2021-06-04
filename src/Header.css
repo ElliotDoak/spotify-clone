@@ -23,5 +23,9 @@
 
 .header__right{
     display:flex;
-    align-items: center; 
+    align-items: center;
+}
+
+.header__right > h4 {
+    padding-left: 7px;
 }

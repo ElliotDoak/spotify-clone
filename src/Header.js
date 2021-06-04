@@ -1,7 +1,7 @@
 import React from 'react';
 import "./Header.css";
 import SearchIcon from '@material-ui/icons/Search';
-import AccountCircleIcon from '@material-ui/icons/AccountCircle';
+import { Avatar } from '@material-ui/core';
 import {useDataLayerValue} from "./DataLayer";
 
 function Header({spotify}) {
@@ -15,7 +15,7 @@ function Header({spotify}) {
             </div>
 
             <div className="header__right">
-                <AccountCircleIcon src={user?.images[0]?.url} alt="Username"/>
+                <Avatar src={user?.images[0]?.url} alt="Username"/>
                 <h4>{user?.display_name}</h4>
             </div>
         </div>
