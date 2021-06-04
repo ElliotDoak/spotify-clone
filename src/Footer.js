@@ -22,11 +22,11 @@ function Footer() {
             </div>
 
             <div className="footer__center"> 
-                <ShuffleIcon className="footer_green"></ShuffleIcon>
-                <SkipPreviousIcon className="footer_icon"></SkipPreviousIcon> 
-                <PlayCircleOutlineIcon fontSize="Large" className="footer_icon"></PlayCircleOutlineIcon> 
-                <SkipNextIcon className="footer_icon"></SkipNextIcon> 
-                <RepeatIcon className="footer_green"></RepeatIcon> 
+                <ShuffleIcon className="footer__green"></ShuffleIcon>
+                <SkipPreviousIcon className="footer__icon"></SkipPreviousIcon> 
+                <PlayCircleOutlineIcon fontSize="Large" className="footer__icon"></PlayCircleOutlineIcon> 
+                <SkipNextIcon className="footer__icon"></SkipNextIcon> 
+                <RepeatIcon className="footer__green"></RepeatIcon> 
             </div>
 
             <div className="footer__right">
