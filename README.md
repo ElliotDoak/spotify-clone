@@ -5,3 +5,5 @@ Learning React by creating a spotify clone that dynamically pulls the users play
 - Responsive Design
 - Material UI
 - React context API
+
+![](/images/amazon-clone%20demo%20(2).gif)
