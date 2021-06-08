@@ -1,9 +1,11 @@
-.sidebar{
-    height: 100vh;
+.sidebar{ 
+    height: 100%;
     flex: 0.2;
     color: white;
+    padding-left: 10px;
+    padding-right: 10px;
     min-width: 230px;
-    background-color: #000000;
+    background-color: hsl(0, 0%, 0%);
 }
 
 .sidebar__logo {
@@ -24,6 +26,26 @@
     margin: 10px auto;
 }
 
-.sidebar__playlists{ 
-    overflow-y:scroll;
+.sidebar__playlists{
+    overflow-y: scroll;
 }
+
+/* width */
+::-webkit-scrollbar {
+    width: 20px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: rgba(0, 0, 0, 0.2);
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
