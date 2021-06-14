@@ -22,7 +22,7 @@ function Sidebar() {
             <hr />
             
             <div className="sidebar__playlists">
-                {playlists?.items?.map(playlists => (
+                {playlists?.items?.slice(0, 18).map(playlists => (
                         <SidebarOption title={playlists.name} />
                     ))}
             </div>

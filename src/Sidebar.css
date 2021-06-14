@@ -1,51 +1,24 @@
-.sidebar{ 
-    height: 100%;
-    flex: 0.2;
-    color: white;
-    padding-left: 10px;
-    padding-right: 10px;
-    min-width: 230px;
-    background-color: hsl(0, 0%, 0%);
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  flex: 0.2;
+  padding-left: 10px;
+  padding-right: 10px;
+  min-width: 230px;
+  height: 100vh;
+  color: white;
+  background-color: #040404;
+}
+
+.sidebar__title {
+  margin-left: 10px;
+  padding: 5px;
+  font-size: 12px;
 }
 
 .sidebar__logo {
-    margin-right: auto;  
-    height: 70px;
-    padding: 10px;
+  margin-right: auto;
+  object-fit: contain;
+  height: 70px;
+  padding: 10px;
 }
-
-.sidebar__title{
-    margin-left: 10px;
-    padding: 5px;
-    font-size: 12px;
-}
-
-.sidebar > hr {
-    border: 1px solid #282828;
-    width: 90%;
-    margin: 10px auto;
-}
-
-.sidebar__playlists{
-    overflow-y: scroll;
-}
-
-/* width */
-::-webkit-scrollbar {
-    width: 20px;
-  }
-  
-  /* Track */
-  ::-webkit-scrollbar-track {
-    background: rgba(0, 0, 0, 0.2);
-  }
-   
-  /* Handle */
-  ::-webkit-scrollbar-thumb {
-    background: #888; 
-  }
-  
-  /* Handle on hover */
-  ::-webkit-scrollbar-thumb:hover {
-    background: #555; 
-  }
